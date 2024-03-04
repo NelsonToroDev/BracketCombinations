@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketCombinations", "BracketCombinations\BracketCombinations.csproj", "{74F797CE-4E4C-49CA-A40F-12C0BE529075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{334EDC62-E48F-43F5-AD1B-12FF059A1CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F797CE-4E4C-49CA-A40F-12C0BE529075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F797CE-4E4C-49CA-A40F-12C0BE529075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F797CE-4E4C-49CA-A40F-12C0BE529075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F797CE-4E4C-49CA-A40F-12C0BE529075}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334EDC62-E48F-43F5-AD1B-12FF059A1CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334EDC62-E48F-43F5-AD1B-12FF059A1CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334EDC62-E48F-43F5-AD1B-12FF059A1CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334EDC62-E48F-43F5-AD1B-12FF059A1CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DBA8ACF-D45C-4744-8305-F2E8310757A5}
+	EndGlobalSection
+EndGlobal
