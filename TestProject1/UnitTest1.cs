@@ -10,9 +10,13 @@ public class UnitTest1
     [InlineData(3, 5)]
     [InlineData(4, 14)]
     [InlineData(5, 42)]
-    public void Test1(int n, int expected)
+    [InlineData(6, 132)]
+    [InlineData(7, 429)]
+    [InlineData(8, 1430)]
+    [InlineData(9, 4862)]
+    public void Test1(int n, long expected)
     {
-        int result = ProgramBracketCombinations.BracketCombinations(n);
+        long result = ProgramBracketCombinations.BracketCombinations(n);
         Assert.Equal(expected, result);
     }
 }

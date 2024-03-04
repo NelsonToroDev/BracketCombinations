@@ -6,24 +6,24 @@ public class ProgramBracketCombinations
     // called Catalan number (Catalan Formula)
     // where catalan formula is ==> (2n!) / (n+1)! n!
 
-    public static int BracketCombinations(int num)
+    public static long BracketCombinations(int num)
     {
-        return Factorial(2 * num) / (Factorial(num + 1) * Factorial(num));
+        return Factorial(2 * num) /(Factorial(num + 1) * Factorial(num));
     }
 
-    public static int Factorial(int num)
+    public static long Factorial(int num)
     {
-        int res = 1;
-        for (int i = num; i > 0; i--)
+        long k = 1;
+        for (int i = num; i >= 1; i--)
         {
-            res = res * i;
+            k *= i;
         }
 
-        return res;
+        return k;
     }
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        BracketCombinations(7);
     }
 }
